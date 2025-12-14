@@ -99,6 +99,14 @@ h1, h2, h3 {
     box-shadow: 0 30px 60px rgba(0,0,0,0.7);
 }
 
+#leadership .card h3 {
+    color: #ffffff;
+}
+
+#leadership .card p {
+    color: #cfd3ff;
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -127,6 +135,16 @@ h1, h2, h3 {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.lead-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #6ea8ff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transform: translateY(-2px);
 }
 
 .profile-pic {
