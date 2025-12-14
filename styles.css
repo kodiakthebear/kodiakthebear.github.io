@@ -59,7 +59,7 @@ h1, h2, h3 {
 .photo-card {
     width: 170px;
     padding: 10px;
-    margin-bottom: 28px;
+    margin: 0 auto 28px auto; 
 
     background: linear-gradient(135deg, #6ea8ff, #9b8cff);
     border-radius: 20px;
